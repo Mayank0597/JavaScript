@@ -53,5 +53,5 @@ console.log(myFunction); // [Function: myFunction]
 
 // Memory - Stack (Primitive), Heap (Non-Primitive)
 
-let myYoutubeName = "abcdotcom" 
+let myYoutubeName = "abcdotcom"  
 
