@@ -33,5 +33,7 @@ console.log(typeof "mayank"); // output => string
 console.log(typeof null); // o/p => object, null is of type object, interview question
 console.log(typeof undefined); // o/p => undefined
 
-
+const id = Symbol('123')
+const anotherId = Symbol('123')
+console.log(id===anotherId); //false
 
