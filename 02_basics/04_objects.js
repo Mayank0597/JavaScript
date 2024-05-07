@@ -48,10 +48,32 @@ const users = [
 ]
 //console.log(users[1].email);// n@g.com
 
-console.log(obj);// { id: '123abc', name: 'Mayank', isLoggedIn: false }
+// console.log(obj);// { id: '123abc', name: 'Mayank', isLoggedIn: false }
 
-console.log(Object.keys(obj));// [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(obj))// [ '123abc', 'Mayank', false ]
-console.log(Object.entries(obj))// [ [ 'id', '123abc' ], [ 'name', 'Mayank' ], [ 'isLoggedIn', false ] ]
-console.log(obj.hasOwnProperty("isLoggedIn"));// true
-console.log(obj.hasOwnProperty("isLogged"));// false
+// console.log(Object.keys(obj));// [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(obj))// [ '123abc', 'Mayank', false ]
+// console.log(Object.entries(obj))// [ [ 'id', '123abc' ], [ 'name', 'Mayank' ], [ 'isLoggedIn', false ] ]
+// console.log(obj.hasOwnProperty("isLoggedIn"));// true
+// console.log(obj.hasOwnProperty("isLogged"));// false
+
+const course = {
+    name: "JavaScript",
+    price: "999",
+    instructor: "Hitesh"
+}
+
+// const {instructor} = course
+// console.log(instructor); Hitesh
+// or console.log(course.instructor);
+
+const {instructor: instruct} = course
+console.log(instruct);// Hitesh
+
+// In Json we have both keys and value in the form of string
+
+// {
+//     "name": "Mayank",
+//     "age": "26",
+//     "city": "Pune"
+// }
+
